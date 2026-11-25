@@ -1,13 +1,19 @@
 +++
-title = "Hiérarchie mémoire"
+title = "Kubernetes"
 weight = 1
 [params]
   author = 'Thomas Piquet'
 +++
 
 > [!info] 
-> Description du projet et de l'equipe.
+> Le sujet présenté est sur le logiciel Kubernetes. 
 
-## La hiérarchie mémoire dans les microprocesseur généraliste.
+## Kubernetes (K8S) 
 
-Par Thomas Piquet.
+Le cours sera présenté en 3 segments : 
+
+- Veille technologique
+- Notes de cours
+- Ateliers
+
+Par Shanice Daudier.
