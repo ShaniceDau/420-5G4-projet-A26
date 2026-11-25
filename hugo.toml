@@ -4,7 +4,7 @@ title = '420-5G4-A26'
 theme = "hugo-theme-relearn"
 # For search functionality
 [outputs]
-home = [ "HTML", "RSS", "SEARCH"]
+home = [ "HTML", "RSS", "print"]
 
 [params]
   themeVariant = ["zen-light", "zen-dark"]
@@ -72,11 +72,9 @@ disableInlineCopyToClipBoard = true
         title = true
     [markup.goldmark.renderHooks]
       [markup.goldmark.renderHooks.image]
-        enableDefault = false
-        useEmbedded = 'auto'
+        useEmbedded = 'fallback'
       [markup.goldmark.renderHooks.link]
-        enableDefault = false
-        useEmbedded = 'auto'
+        useEmbedded = 'fallback'
     [markup.goldmark.renderer]
       hardWraps = false
       unsafe = true
